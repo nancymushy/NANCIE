@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(DSC_3112.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container h1{
+    color: rgb(228, 16, 16);
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 18px;
+    text-transform: uppercase;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: darkmagenta;
+    padding: 4px;
+    transition: 3.5%;
+}
+
+.navbar ul li a:hover {
+    box-shadow:  0 3px 50px olive insert,
+      0 3px 50px olive 0 3px 50px insert,
+      0 3px 50px olive insert;
+}
+
+.navbar.reservation {
+    padding: 8px;
+    background-color: olive;
+}
+
+.content {
+    position: absolute;
+    color: rgb(228, 16, 16);
+    top: 60%;
+    left: 30%;
+}
+
+.content h3 {
+    font-family:  sans-serif;
+    font-size: 100%;
+    margin-left: 30%;
+}
+
+.content h1 {
+    font-size: 50px;
+}
+
+.read {
+    position: absolute;
+    margin-top: 32%;
+    margin-left: 42%;
+}
+
+.read input {
+    outline: none;
+    border: none;
+    padding: 12px 40px;
+    size: 1em;
+    width: 100px;
+}
+
+/* .read{
+    position:absolute;
+    margin-top:31px;
+    margin-left: 49px;
+} */
+
+.read a {
+    text-decoration: none;
+    color: bisque;
+    padding: 12px 25px;
+    background-color: black;
+}
+
+.read more {
+    /*text-align: center; */
+    margin-top: 26%;
+    margin-left: 42%;
+    margin-bottom: 30%;
+}
+
